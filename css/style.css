@@ -25,6 +25,13 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    max-width: 100%;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
 }
 
 body {
@@ -75,6 +82,7 @@ main {
 }
 
 .rating-section {
+    display: none;
     margin: 0 2.4rem;
 }
 
@@ -137,7 +145,6 @@ main {
 }
 
 .thank-you-section {
-    display: none;
     text-align: center;
     padding: 0 2.4rem;
 }
@@ -171,4 +178,67 @@ main {
     justify-content: center;
     margin: 2.9rem auto;
     padding: 5px 12px;
+}
+
+@media screen and (min-width: 600px) {
+    h1,
+    h2 {
+        font-size: 2.8rem;
+    }
+    main {
+        max-width: 41.2rem;
+        border-radius: 3rem;
+    }
+
+    .logo {
+        width: 4.8rem;
+        height: 4.8rem;
+    }
+
+    .rating-section p {
+        margin-top: 1.5rem;
+        max-width: 34rem;
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+    }
+
+    .rating {
+        gap: 2.1rem;
+    }
+
+    .btn {
+        width: 5.1rem;
+        height: 5.1rem;
+        font-size: 1.6rem;
+    }
+
+    .btn-submit {
+        width: 34.1rem;
+        height: 4.5rem;
+        margin-top: 3.2rem;
+        font-size: 1.5rem;
+    }
+
+    .thank-you-section {
+        width: 41.2rem;
+    }
+
+    .thanks {
+        width: 16.2rem;
+        height: 10.8rem;
+        margin-top: 4.5rem;
+    }
+
+    .selected {
+        width: 19.3rem;
+        font-size: 1.5rem;
+        margin: 3.6rem auto;
+    }
+
+    .thank-you-content {
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        width: 34rem;
+        margin: 0.7rem 0 4.5rem 0;
+    }
 }
