@@ -82,6 +82,7 @@ main {
 }
 
 .rating-section {
+    display: none;
     margin: 0 2.4rem;
 }
 
@@ -144,7 +145,6 @@ main {
 }
 
 .thank-you-section {
-    display: none;
     text-align: center;
     padding: 0 2.4rem;
 }
@@ -217,5 +217,28 @@ main {
         height: 4.5rem;
         margin-top: 3.2rem;
         font-size: 1.5rem;
+    }
+
+    .thank-you-section {
+        width: 41.2rem;
+    }
+
+    .thanks {
+        width: 16.2rem;
+        height: 10.8rem;
+        margin-top: 4.5rem;
+    }
+
+    .selected {
+        width: 19.3rem;
+        font-size: 1.5rem;
+        margin: 3.6rem auto;
+    }
+
+    .thank-you-content {
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        width: 34rem;
+        margin: 0.7rem 0 4.5rem 0;
     }
 }
